@@ -1,0 +1,23 @@
+# Backend (Gradle)
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Frontend (Next.js)
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+
+# Env files (keep an example if you add one)
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
